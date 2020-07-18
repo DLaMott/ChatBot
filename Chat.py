@@ -8,6 +8,13 @@ import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
 
+
+#Simple ChatBot program
+#Completed with tutorial from https://www.youtube.com/watch?v=9KZwRBg4-P0
+#To edit the bot change the Article URL
+#Responses are pulled from the provided URL and displayed to the user.
+#Generic responses can be edited in the arrays below
+
 #Download the punkt pakage
 nltk.download('punkt', quiet=True)
 
